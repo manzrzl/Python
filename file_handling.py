@@ -1,0 +1,5 @@
+fp=open("E:\\edureka\\python.txt",'w+')
+fp.write("Python is fun")
+fp.seek(0)
+print(fp.read())
+fp.close()
